@@ -2,6 +2,7 @@
 
 Read [the ZIPA paper](https://aclanthology.org/2025.acl-long.961/) here!
 
+**[Update]**: Clean labels for the IPA Pack Plus is available at [https://huggingface.co/datasets/sejongwang/ipapack_plus_clean](https://huggingface.co/datasets/sejongwang/ipapack_plus_clean). This is a label only repo. Thanks Junehwi Kim at KAIST for cleaning the data!! Please cite his repository if you use his clean labels. 
 
 ## ONNX Inference
 For users who are only interested in running the model for inference, we provide optimized ONNX models (FP32, FP16, and INT8) for efficient inference (on your browsers and phones). We have included checkpoints in `fp32`, `fp16` and `int8` in the `Final Averaged Checkpoint` HF hubs below. The dependencies are reduced to minimal to facilitate usage. Note that low precision models might lead to slightly worse performance, despite the gain of efficiency. Sample results are [here](https://github.com/lingjzhu/zipa/blob/main/scripts/onnx_scripts/inference_results_all.txt).
@@ -165,6 +166,8 @@ After you download checkpoints to your local folder, you can use the inference c
 
 
 ## Data
+
+**[Update]**: Clean labels for this data is available at [https://huggingface.co/datasets/sejongwang/ipapack_plus_clean](https://huggingface.co/datasets/sejongwang/ipapack_plus_clean). This is a label only repo. Thanks Junehwi Kim at KAIST for cleaning the data!! Please cite his repository if you use his clean labels. 
 
 The tokenizer can be found [here](https://huggingface.co/datasets/anyspeech/ipapack_plus_meta). You'll need the `sentencepiece` package to load it. [This](https://huggingface.co/datasets/anyspeech/ipapack_plus_meta/blob/main/ipa_simplified/unigram_127.vocab) is the list of selected IPA symbols. 
 

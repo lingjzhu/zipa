@@ -148,21 +148,21 @@ After you download checkpoints to your local folder, you can use the inference c
 
 All model weights are distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license. 
 
-| Model               | Params | Training Steps | Raw Checkpoints | Final Averaged Checkpoint |   
-|---------------------|--------|--------|-------------|-------------|
-| Zipa-T-small        | 65M    | 300k   | [link](https://huggingface.co/anyspeech/zipa-t-s)        | [anyspeech/zipa-small-noncausal-300k](https://huggingface.co/anyspeech/zipa-small-noncausal-300k) |
-| Zipa-T-large        | 302M   | 300k   | [link](https://huggingface.co/anyspeech/zipa-t-l)        | [anyspeech/zipa-large-noncausal-300k](https://huggingface.co/anyspeech/zipa-large-noncausal-300k) |
-| Zipa-T-small        | 65M    | 500k   | [link](https://huggingface.co/anyspeech/zipa-t-s)        | [anyspeech/zipa-small-noncausal-500k](https://huggingface.co/anyspeech/zipa-small-noncausal-500k) |
-| Zipa-T-large        | 302M   | 500k   | [link](https://huggingface.co/anyspeech/zipa-t-l)        | [anyspeech/zipa-large-noncausal-500k](https://huggingface.co/anyspeech/zipa-large-noncausal-500k) |
-| Zipa-Cr-small       | 64M    | 300k   | [link](https://huggingface.co/anyspeech/zipa-cr-s/tree/main)        | [anyspeech/zipa-small-crctc-300k](https://huggingface.co/anyspeech/zipa-small-crctc-300k) |
-| Zipa-Cr-large       | 300M   | 300k   | [link](https://huggingface.co/anyspeech/zipa-cr-l)        | [anyspeech/zipa-large-crctc-300k](https://huggingface.co/anyspeech/zipa-large-crctc-300k) |
-| Zipa-Cr-small       | 64M    | 500k   | [link](https://huggingface.co/anyspeech/zipa-cr-s/tree/main)        | [anyspeech/zipa-small-crctc-500k](https://huggingface.co/anyspeech/zipa-small-crctc-500k) |
-| Zipa-Cr-large       | 300M   | 500k   | [link](https://huggingface.co/anyspeech/zipa-cr-l)        | [anyspeech/zipa-large-crctc-500k](https://huggingface.co/anyspeech/zipa-large-crctc-500k) | 
-| Zipa-Cr-Ns-small    | 64M    | 700k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-s)        | [anyspeech/zipa-small-crctc-ns-700k](https://huggingface.co/anyspeech/zipa-small-crctc-ns-700k) |
-| Zipa-Cr-Ns-large    | 300M   | 800k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-l)        | [anyspeech/zipa-large-crctc-ns-800k](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k) | 
+| Model               | Params | Training Steps | Raw Checkpoints | Final Averaged Checkpoint |   License |
+|---------------------|--------|--------|-------------|-------------|---------------|
+| Zipa-T-small        | 65M    | 300k   | [link](https://huggingface.co/anyspeech/zipa-t-s)        | [anyspeech/zipa-small-noncausal-300k](https://huggingface.co/anyspeech/zipa-small-noncausal-300k) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-T-large        | 302M   | 300k   | [link](https://huggingface.co/anyspeech/zipa-t-l)        | [anyspeech/zipa-large-noncausal-300k](https://huggingface.co/anyspeech/zipa-large-noncausal-300k) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-T-small        | 65M    | 500k   | [link](https://huggingface.co/anyspeech/zipa-t-s)        | [anyspeech/zipa-small-noncausal-500k](https://huggingface.co/anyspeech/zipa-small-noncausal-500k) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-T-large        | 302M   | 500k   | [link](https://huggingface.co/anyspeech/zipa-t-l)        | [anyspeech/zipa-large-noncausal-500k](https://huggingface.co/anyspeech/zipa-large-noncausal-500k) |[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-Cr-small       | 64M    | 300k   | [link](https://huggingface.co/anyspeech/zipa-cr-s/tree/main)        | [anyspeech/zipa-small-crctc-300k](https://huggingface.co/anyspeech/zipa-small-crctc-300k) |[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-Cr-large       | 300M   | 300k   | [link](https://huggingface.co/anyspeech/zipa-cr-l)        | [anyspeech/zipa-large-crctc-300k](https://huggingface.co/anyspeech/zipa-large-crctc-300k) |[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-Cr-small       | 64M    | 500k   | [link](https://huggingface.co/anyspeech/zipa-cr-s/tree/main)        | [anyspeech/zipa-small-crctc-500k](https://huggingface.co/anyspeech/zipa-small-crctc-500k) |[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-Cr-large       | 300M   | 500k   | [link](https://huggingface.co/anyspeech/zipa-cr-l)        | [anyspeech/zipa-large-crctc-500k](https://huggingface.co/anyspeech/zipa-large-crctc-500k) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)| 
+| Zipa-Cr-Ns-small    | 64M    | 700k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-s)        | [anyspeech/zipa-small-crctc-ns-700k](https://huggingface.co/anyspeech/zipa-small-crctc-ns-700k) |[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)| 
+| Zipa-Cr-Ns-large    | 300M   | 800k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-l)        | [anyspeech/zipa-large-crctc-ns-800k](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) | 
 | *No diacritics*  |        |        |             |
-| Zipa-Cr-Ns-small    | 64M    | 700k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-s-no-diacritics/tree/main)        | [anyspeech/zipa-small-crctc-ns-no-diacritics-700k](https://huggingface.co/anyspeech/zipa-small-crctc-ns-no-diacritics-700k) | 
-| Zipa-Cr-Ns-large    | 300M   | 780k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-l-no-diacritics)        | [anyspeech/zipa-large-crctc-ns-no-diacritics-780k](https://huggingface.co/anyspeech/zipa-large-crctc-ns-no-diacritics-780k) | 
+| Zipa-Cr-Ns-small    | 64M    | 700k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-s-no-diacritics/tree/main)        | [anyspeech/zipa-small-crctc-ns-no-diacritics-700k](https://huggingface.co/anyspeech/zipa-small-crctc-ns-no-diacritics-700k) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) | 
+| Zipa-Cr-Ns-large    | 300M   | 780k   | [link](https://huggingface.co/anyspeech/zipa-cr-ns-l-no-diacritics)        | [anyspeech/zipa-large-crctc-ns-no-diacritics-780k](https://huggingface.co/anyspeech/zipa-large-crctc-ns-no-diacritics-780k) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)| 
 
 
 

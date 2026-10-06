@@ -146,7 +146,7 @@ The huggingface page contains the last 10 checkpoints. The inference code will a
 After you download checkpoints to your local folder, you can use the inference code. `--exp-dir` should point to your local checkpoint folders.
 `--iter` should be the last iteration as specified in the checkpoint names. `--avg 10` implies that the last 10 checkpoints will be averaged. Please don't change this argument, as we have only provided the last 10 checkpoints. 
 
-Most model weights are distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license. However, for `ns` models, I cannot release it with a commercially permissive license because the training data `MMS-ulab v2` is released under CC BY-NC-SA 4.0.
+**[Update]** Most model weights are distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) license. However, for `ns` models, I cannot release it with a commercially permissive license because the training data `MMS-ulab v2` is released under CC BY-NC-SA 4.0.
 
 | Model               | Params | Training Steps | Raw Checkpoints | Final Averaged Checkpoint |   License |
 |---------------------|--------|--------|-------------|-------------|---------------|
